@@ -1,0 +1,2 @@
+# wp-config je specificky pro kazdy projekt, predevsim kvuli pristupu do databaze
+wp-config.php
