@@ -49,14 +49,15 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+#define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         'ADUZHGqJnzT7HsxMVjPSU3j9QpFuK4a76jZf96K-WFgAFRzP5H-ztGvgUVqY-3_7k8jJKRr9CxhC7snL');
+define('SECURE_AUTH_KEY',  'g_fnur58-joDTTPbL6W--drYSBsxstzodnWjwQc_QhVsewSqpVCsMozuKmEH2-KEHyzHS2zgnHveD2uH');
+define('LOGGED_IN_KEY',    '5G95bbw3UhZAd6uQMWWgLYqKppAHL56U7pFQgxdK6w3SWuoZq4--RiyMaToGxpRxb_7cXrs8qD74DDkW');
+define('NONCE_KEY',        'cNCxR5ZqQXMfv7zRwXKJVRxMgJSDSYVKJ4xqJ7Md9s5X-_jqr8GXGQf5sDf393-ewT68x-cPTB2Binj5');
+define('AUTH_SALT',        '2nFz_Xqp_jWHxNqBg5pLX-_qhPR8KtxWRDAKJ3-WU_pnjkvQpHbsQutV3n-XHaYBQcPiEfkbD_E-TZ_c');
+define('SECURE_AUTH_SALT', 'U3C5duY5Zj-ZX7TR2-Q3PBRT95G8DGHESNNSRuX_2GNt_RmvEcuzBTB8kGUEHVcBYb6nGKoWfibP_Hre');
+define('LOGGED_IN_SALT',   'SvZmXCTqXNhPNcYVccHj_dzeJHtTtPdCWNUe3ZeEcz36N-P_yBRfaBqwoYwpst-tfRwDG6cuBLvzyQz7');
+define('NONCE_SALT',       'gjebFNuUtFHNqXwpLZdsBH_aL3kvZ5j_jE9s4yrSxUWhSBGuzGpsZ9B458Z-PjrazovwXcxPRxqGTHPd');
 
 /**#@-*/
 
