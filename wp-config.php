@@ -15,7 +15,11 @@
  */
 
 // ** Heroku Postgres settings - from Heroku Environment ** //
-$db = parse_url($_ENV["DATABASE_URL"]);
+if (!$_ENV["DATABASE_URL"]){
+	$db = parse_url("postgres://wordpress:wordpress@localhost:5432/wordpress");
+}else{
+	$db = parse_url($_ENV["DATABASE_URL"]);
+}
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
