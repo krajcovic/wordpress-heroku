@@ -204,6 +204,12 @@ function twentyeleven_setup() {
 			'thumbnail_url' => '%s/images/headers/hanoi-thumbnail.jpg',
 			/* translators: header image description */
 			'description' => __( 'Hanoi Plant', 'twentyeleven' )
+		),
+		'ballzlin' => array(
+			'url' => '%s/images/headers/ballzlin.jpg',
+			'thumbnail_url' => '%s/images/headers/ballzlin-thumbnail.jpg',
+			/* translators: header image description */
+			'description' => __( 'BallZlin', 'twentyeleven' )
 		)
 	) );
 }
