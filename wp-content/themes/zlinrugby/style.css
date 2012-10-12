@@ -540,10 +540,16 @@ a:hover {
 
 #access {
 	background: #222; /* Show a solid color for older browsers */
+/*	
 	background: -moz-linear-gradient(#252525, #0a0a0a);
 	background: -o-linear-gradient(#252525, #0a0a0a);
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#252525), to(#0a0a0a)); /* older webkit syntax */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#252525), to(#0a0a0a));
 	background: -webkit-linear-gradient(#252525, #0a0a0a);
+*/
+	background: -moz-linear-gradient(#0030b0, #21263c);
+	background: -o-linear-gradient(#0030b0, #21263c);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0030b0), to(#21263c)); /* older webkit syntax */
+	background: -webkit-linear-gradient(#0030b0, #21263c);
 	-webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
 	-moz-box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
 	box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
@@ -605,11 +611,18 @@ a:hover {
 }
 #access li:hover > a,
 #access a:focus {
-	background: #f9f9f9; /* Show a solid color for older browsers */
+/*
+	background: #f9f9f9;
 	background: -moz-linear-gradient(#f9f9f9, #e5e5e5);
 	background: -o-linear-gradient(#f9f9f9, #e5e5e5);
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9f9f9), to(#e5e5e5)); /* Older webkit syntax */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9f9f9), to(#e5e5e5));
 	background: -webkit-linear-gradient(#f9f9f9, #e5e5e5);
+*/
+	background: #ffd80f; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#ffd80f, #e2bc7b);
+	background: -o-linear-gradient(#ffd80f, #e2bc7b);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffd80f), to(#e2bc7b)); /* Older webkit syntax */
+	background: -webkit-linear-gradient(#ffd80f, #e2bc7b);
 	color: #373737;
 }
 #access ul li:hover > ul {
